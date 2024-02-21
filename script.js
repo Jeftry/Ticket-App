@@ -1,12 +1,12 @@
 alert('Aplikasi tiket')
 
-const nama = prompt('masukan nama :');
-const usia = prompt('masukan usia:');
+const nama = prompt('Masukan Nama:');
+const usia = prompt('Masukan Usia:');
 const batasusia = 13;
 //const pilih = ['A'|'B'|'C'];
 
 if (usia >= batasusia){
-    alert('Boleh masuk bioskop');
+    alert('Boleh Basuk Bioskop');
     const studio = prompt('pilih studio A/B/C');
         if(studio == 'A'){
             alert(`${nama} berusia ${usia} masuk ke studio ${studio}`);
@@ -18,9 +18,9 @@ if (usia >= batasusia){
             alert(`${nama} berusia ${usia} masuk ke studio ${studio}`);
         }
         else{
-            alert('input tidak sesuai')
+            alert('Input Tidak Sesuai')
         }
 
 }else{
-    alert('tidak bisa masuk');
+    alert('Tidak Bisa Masuk Bioskop');
 }
